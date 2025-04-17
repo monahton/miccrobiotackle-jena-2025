@@ -11,13 +11,18 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Workshop, Programming, Learning, Data Visualization">
     <style>
-        .divider {
+        .section-divider {
             border: 0;
-            height: 0.5px;
-            background: #333;
-            background-color: #b2132e;
-            background-image: linear-gradient(to right, #ccc, #333, #ccc);
-            margin: 20px 0;
+            height: 4px;
+            background-color: black;
+            margin: 40px 0;
+        }
+
+        .subsection-divider {
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+            margin: 30px 0;
         }
     </style>
     <title>MiCCrobioTAckle Training 2025</title>
@@ -47,6 +52,7 @@
 <br>
 
 <!-- Windows -->
+<hr class="section-divider">
 <h2><img src="https://www.svgrepo.com/show/156936/windows-logo.svg" width="40" height="40"> For Windows users</h2>
 
 <h3>Installing R and RStudio</h3>
@@ -62,6 +68,8 @@
     </div>
 </div>
 
+<hr class="subsection-divider">
+
 <h3>Installing Bash (Git Bash)</h3>
 <p>
     Bash is provided via Git Bash on Windows. Download and install Git for Windows from <a href="https://gitforwindows.org/">https://gitforwindows.org/</a>.
@@ -73,14 +81,15 @@
     </div>
 </div>
 
+<hr class="subsection-divider">
+
 <h3>Installing Git</h3>
 <p>
     Git should be installed on your computer as part of your Bash install (see the Shell installation instructions above).
 </p>
 
-<hr class="divider">
-
 <!-- Mac -->
+<hr class="section-divider">
 <h2><img src="https://www.svgrepo.com/show/511330/apple-173.svg" width="40" height="40"> For Mac users</h2>
 
 <h3>Installing R and RStudio</h3>
@@ -95,10 +104,14 @@
     </div>
 </div>
 
+<hr class="subsection-divider">
+
 <h3>Accessing Bash</h3>
 <p>
     On macOS, you access Bash from the <strong>Terminal</strong> app located in <code>/Applications/Utilities</code>.
 </p>
+
+<hr class="subsection-divider">
 
 <h3>Installing Git</h3>
 <p>
@@ -113,9 +126,8 @@
     </div>
 </div>
 
-<hr class="divider">
-
 <!-- Linux -->
+<hr class="section-divider">
 <h2><img src="https://www.svgrepo.com/show/453370/linux.svg" width="40" height="40"> For Linux users</h2>
 
 <h3>Installing R and RStudio</h3>
@@ -125,10 +137,14 @@
     Then download and install the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
 </p>
 
+<hr class="subsection-divider">
+
 <h3>Accessing Bash</h3>
 <p>
     Bash is the default shell on most Linux distributions and can be accessed through your terminal emulator.
 </p>
+
+<hr class="subsection-divider">
 
 <h3>Installing Git</h3>
 <p>
@@ -138,8 +154,8 @@
     For Arch: <code>sudo pacman -S git</code>
 </p>
 
-<hr class="divider">
-
+<!-- Final Info -->
+<hr class="section-divider">
 <p align="center">
   <em>
     <img border="0" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Microsoft_Tips_icon.png" width="20" height="20"> For more information or if you encounter any trouble/errors in the installation process,
